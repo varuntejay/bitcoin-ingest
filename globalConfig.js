@@ -1,0 +1,13 @@
+module.exports.START_BLOCK = process.env.START_BLOCK || 1
+module.exports.END_BLOCK = process.env.END_BLOCK || 100
+module.exports.SIZE = process.env.SIZE || 100
+module.exports.HOST_IP = process.env.HOST_IP || "100.24.211.52"
+module.exports.PORT = process.env.PORT || "8332"
+module.exports.USERNAME = process.env.USERNAME || "bitcoinrpc"
+module.exports.PASSWORD = process.env.PASSWORD || "1234"
+module.exports.NETWORK_NAME = process.env.NETWORK_NAME || "mainnet"
+module.exports.DB_HOST = process.env.DB_HOST || "52.201.108.190"
+module.exports.DB_PORT = process.env.DB_PORT || 27017
+module.exports.DB_NAME = process.env.DB_NAME || "bitcoin_db"
+module.exports.DB_BLOCKS_COLLECTION = process.env.DB_BLOCKS_COLLECTION || "blocks"
+module.exports.DB_TXNS_COLLECTION = process.env.DB_TXNS_COLLECTION || "transactions"
